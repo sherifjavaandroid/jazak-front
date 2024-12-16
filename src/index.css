@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+    /* Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+}
+
+@layer components {
+  .btn-main{
+    @apply btn bg-maincolor hover:bg-hoverColor hover:text-blackMediumEmp hover:border hover:border-activeColor disabled:bg-disabledColor disabled:text-white w-52 h-14 py-[20px] px-4 rounded-lg capitalize flex justify-center items-center text-white font-semibold font-poppins
+  }
+  /* .btn-hover{
+    @apply bg-hoverColor text-blackMediumEmp border border-activeColor   w-52 h-14 py-[20px] px-4 rounded-lg capitalize flex justify-center items-center font-semibold font-poppins
+  }
+  .btn-disbaled{
+    @apply bg-disabledColor text-white  w-52 h-14 py-[20px] px-4 rounded-lg capitalize flex justify-center items-center font-semibold font-poppins
+  } */
+ 
+}
+

@@ -1,0 +1,176 @@
+* {
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.checkbox-error {
+  --chkbg: var(--er);
+  --chkfg: #fff;
+  background-color: #9efbfb;
+}
+
+/* phone number input  */
+.PhoneInputCountrySelectArrow {
+  width: 0.5em !important;
+  height: 0.5em !important;
+  border-bottom-width: 2px !important;
+  border-right-width: 2px !important;
+  border-color: #555568 !important;
+  opacity: 1 !important;
+}
+
+.PhoneInputInput {
+  outline: none !important;
+  background-color: transparent !important;
+}
+
+.PhoneInputCountrySelect {
+  background-color: #fff;
+}
+
+.stdropdown-container {
+  border-color: #cdd2f0 !important;
+}
+
+.stsearch-box {
+  padding: 11px !important;
+}
+
+.stdropdown-input input {
+  border: none !important;
+  outline: none;
+  background-color: transparent;
+}
+
+
+/* ant style  */
+.ant-select{
+  width:100% !important;
+  
+}
+.ant-select-selector{
+  outline: none !important;
+}
+.ant-select-selector:hover{
+  outline: none !important;
+}
+:where(.css-dev-only-do-not-override-nnuwmp).ant-picker {
+  padding: 17px 11px 17px !important;
+}
+
+:where(.css-nnuwmp).ant-picker {
+  padding: 17px 11px 17px !important;
+}
+
+.ant-picker-suffix {
+  color: #ef5777 !important;
+}
+
+.ant-select-arrow {
+  display: none !important;
+}
+.ant-select-selector{
+  position: relative;
+}
+
+.ant-select-selector::after {
+  content: url("./assets/images/arrow-down.png") !important; /* Unicode down arrow character */
+  visibility: visible !important ;
+  position: absolute;
+  top: 50%;
+  right: 25px;
+  /* transform: translateY(16px) translateX(-16px); */
+  transform: translate(-50%,-50%);
+}
+
+.test .ant-select-selector::after {
+  content: url("./assets/images/arrow-down.png") !important; /* Unicode down arrow character */
+  visibility: visible !important ;
+  transform: translateY(14px) translateX(-16px);
+}
+
+:where(.css-dev-only-do-not-override-nnuwmp).ant-select-single
+  .ant-select-selector {
+  align-items: center;
+}
+
+:where(.css-dev-only-do-not-override-nnuwmp).ant-select-single:not(
+    .ant-select-customize-input
+  )
+  .ant-select-selector {
+  width: 100%;
+  height: 46px;
+  padding: 0 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+:where(.css-nnuwmp).ant-select-single:not(.ant-select-customize-input)
+  .ant-select-selector {
+  height: 57px !important;
+}
+
+.adSetting .ant-select-selector {
+  height: 50px !important;
+
+}
+
+
+
+.adSetting .ant-select {
+  border: 0 !important;
+}
+
+
+
+
+.ant-select-selection-search,
+.ant-select-selection-item {
+  display: flex;
+  align-items: center;
+}
+
+
+:where(.css-nnuwmp).ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled),
+:where(.css-dev-only-do-not-override-nnuwmp).ant-select-dropdown
+  .ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+  background-color: #e4ffff;
+}
+
+:where(.css-nnuwmp).ant-select-dropdown
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled),
+:where(.css-dev-only-do-not-override-nnuwmp).ant-select-dropdown
+  .ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+  background-color: #e4ffff;
+}
+
+
+/* daisy ui style start  */
+
+.menu li > *:not(ul):not(.menu-title):not(details):active,
+.menu li > *:not(ul):not(.menu-title):not(details).active,
+.menu li > details > summary:active {
+  background-color: transparent !important;
+  color: #303c58 !important;
+}
+
+.toggle-error:checked,
+.toggle-error[checked="true"],
+.toggle-error[aria-checked="true"] {
+  border-color: #75BFC0 !important;
+  background-color: #75BFC0 !important;
+}
+/* daisy ui style end */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #D2FBFC;
+  border-radius: 10px;
+}
+

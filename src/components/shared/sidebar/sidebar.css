@@ -1,0 +1,32 @@
+.sidebar {
+  transition: width 0.4s ease-in-out;
+}
+.sideNav::-webkit-scrollbar {
+  width: 0px;
+}
+
+.dashboard:hover {
+  background-color: #e4ffff;
+}
+.dashboard.active {
+  background-color: #e4ffff;
+  color: #75bfc0 !important;
+}
+.navlink.active {
+  background-color: #e4ffff;
+  border-radius: 12px;
+}
+.nested:hover {
+  color: #75bfc0;
+}
+.nested.active {
+  color: #75bfc0 !important;
+}
+
+.navlink:hover {
+  background-color: #e4ffff;
+  border-radius: 12px;
+}
+/* .navlink:hover svg {
+  fill: #e4ffff;
+} */
